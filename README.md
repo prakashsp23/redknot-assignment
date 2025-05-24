@@ -52,11 +52,12 @@
 
 3. Set up environment variables:
    Create a `.env` file in the root directory and add necessary environment variables like
+   ```bash
    DATABASE_URL=
-PORT=3001
-VITE_CLERK_PUBLISHABLE_KEY=
+   PORT=3001
+   VITE_CLERK_PUBLISHABLE_KEY=
 
-4. Initialize the database:
+5. Initialize the database:
    ```bash
    npx prisma generate
    npx prisma db push
